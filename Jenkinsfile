@@ -23,7 +23,7 @@ pipeline {
 
             steps {
                 sh 'docker tag analytics-website:v1 ashishar14/analytics-website:v1'
-                sh 'docker push YOUR_DOCKER_ID/analytics-website:v1'
+                sh 'docker push ashishar14/analytics-website:v1'
             }
         }
 
